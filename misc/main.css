@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.greetings {
+    font-family: "Lato", sans-serif;
+    font-size: 34px;
+    color: whitesmoke;
+}
+
+#greetings-label {
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    color: whitesmoke;
+}
+
+.greetings-line {
+    background-color: black;
+    padding: 85px;
+    margin-top: 100px;
+    width: 100vw;
+    box-sizing: border-box;
+}
