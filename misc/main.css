@@ -4,8 +4,12 @@
 
 body {
     margin: 0;
-    font-family: "Lato", sans-serif;
-    background-color: whitesmoke;
+    background-image: url("images/logo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
 }
 
 .greetings {
@@ -22,7 +26,7 @@ body {
 
 .greetings-line {
     background-color: black;
-    padding: 85px;
+    padding: 60px;
     width: 100vw;
     box-sizing: border-box;
 }
@@ -35,6 +39,7 @@ body {
     padding: 0 20px;
     z-index: 2;
     border-bottom: 2px solid #333333;
+    font-size: 22px;
 }
 
 .menu-item {
@@ -56,6 +61,7 @@ body {
     padding: 5px;
     flex-direction: column;
     width: 150px;
+    font-size: 18px;
 }
 
 .menu-item:hover .submenu {
@@ -63,12 +69,12 @@ body {
 }
 
 .menu-item span {
-    color: white;
+    color: whitesmoke;
     margin-right: 5px;
 }
 
 .submenu a {
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
     padding: 5px 0;
     display: block;
@@ -77,4 +83,14 @@ body {
 .content {
     margin-top: 60px;
     padding: 20px;
+}
+
+.footer {
+    background-color: #000;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin-top: auto;
 }
