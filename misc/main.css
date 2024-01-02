@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-color: black;
+    height: 100%;
 }
 
 .greetings {
@@ -90,7 +91,20 @@ body {
     color: whitesmoke;
     padding: 8px;
     text-align: left;
-    width: 100%;
-    position: relative;
+    left: 0;
     margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#home {
+    cursor: pointer;
+    color: whitesmoke;
+    margin-right: 5px;
+}
+
+#home a {
+    text-decoration: none;
+    color: inherit;
 }
