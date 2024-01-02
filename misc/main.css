@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-image: url("images/logo.jpg");
+    background-image: url("images/background65.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@ body {
 
 .greetings-line {
     background-color: black;
-    padding: 60px;
+    padding: 55px;
     width: 100vw;
     box-sizing: border-box;
 }
@@ -88,7 +88,7 @@ body {
 .footer {
     background-color: #000;
     color: whitesmoke;
-    padding: 10px;
+    padding: 8px;
     text-align: left;
     width: 100%;
     position: relative;
