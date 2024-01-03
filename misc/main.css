@@ -101,9 +101,9 @@ body {
 .footer {
     background-color: #000;
     color: whitesmoke;
-    padding: 8px;
+    padding: 0;
     margin-top: auto;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     display: flex;
