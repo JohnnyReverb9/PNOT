@@ -130,3 +130,25 @@ body {
     text-align: left;
     margin-right: auto;
 }
+
+.about-us-info {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    padding: 85px 65px 15px;
+
+}
+
+#about-us-main-text {
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+}
+
+#about-us-label {
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+}
