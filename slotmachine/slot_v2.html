@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Slot Machine</title>
+<head>xx
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.min.css?v=1.0.0">
     <script data-main="app" src="lib/require.js"></script>
+    <link rel="stylesheet" href="../misc/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+    <link rel="icon" href="../misc/images/logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="../misc/images/logo.ico" type="image/x-icon">
+    <title>PNOT Ltd.</title>
 </head>
-<body>
-<div class="wrapper" id="wrapper"></div>
+<body id="casino-body">
+<div class="menu">
+    <div class="menu-item" id="home">
+        <a href="../html/index.html">PNOT Ltd</a>
+    </div>
+    <div class="menu-item" id="services">
+        <span>Our services</span>
+        <div class="submenu">
+            <a href="../slotmachine/slot_v2.html" target="_blank">Casino</a>
+            <a href="../dice/dice.html">Cubes</a>
+            <a href="#">Darts</a>
+        </div>
+    </div>
+    <div class="menu-item" id="portfolio">
+        <span>Our products</span>
+        <div class="submenu">
+            <a href="#">Project 1</a>
+            <a href="#">Project 2</a>
+            <a href="#">Project 3</a>
+        </div>
+    </div>
+    <div class="menu-item" id="contact">
+        <span>Contact us</span>
+        <div class="submenu">
+            <a href="https://forms.yandex.ru/u/65945eec505690821f855328/" target="_blank">Feedback</a>
+            <a href="https://t.me/pnotltd" target="_blank">Telegram</a>
+        </div>
+    </div>
+    <div class="menu-item" id="info">
+        <span>Information</span>
+        <div class="submenu">
+            <a href="../html/about_us.html">About us</a>
+            <a href="#">Our offices</a>
+            <a href="#">Contacts</a>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper" id="wrapper">
+
+</div>
+
+<footer class="footer">
+    <p class="footer-rights">&copy; <span id="current-year"></span> PNOT Ltd. All rights reserved. <span id="footer-version">v0.0.1</span></p>
+    <script src="../src/footer.js"></script>
+</footer>
 </body>
 </html>

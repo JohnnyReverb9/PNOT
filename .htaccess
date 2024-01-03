@@ -5,7 +5,7 @@ DirectoryIndex html/slot.html
 RewriteEngine On
 RewriteBase /
 
-# Перенаправление корневой страницы на html/index.html
+# Перенаправление корневой страницы на html/dice.html
 RewriteRule ^$ html/index.html [L]
 
 # Перенаправление остальных страниц в директории html
