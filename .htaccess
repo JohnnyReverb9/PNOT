@@ -1,0 +1,19 @@
+DirectoryIndex html/index.html
+DirectoryIndex html/about_us.html
+DirectoryIndex html/slot.html
+
+RewriteEngine On
+RewriteBase /
+
+# Перенаправление корневой страницы на html/index.html
+RewriteRule ^$ html/index.html [L]
+
+# Перенаправление остальных страниц в директории html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ html/$1 [L]
+
+# Скрытие расширения .html из адреса
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]

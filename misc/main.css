@@ -11,6 +11,7 @@ body {
     background-attachment: fixed;
     background-color: black;
     height: 100%;
+    overflow-x: hidden;
 }
 
 #casino-body {
@@ -39,7 +40,7 @@ body {
 .greetings-line {
     background-color: black;
     padding: 55px;
-    width: 100vw;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -101,12 +102,11 @@ body {
     background-color: #000;
     color: whitesmoke;
     padding: 8px;
-    text-align: left;
-    left: 0;
     margin-top: auto;
     position: absolute;
     bottom: 0;
     width: 100%;
+    display: flex;
 }
 
 #home {
@@ -118,4 +118,15 @@ body {
 #home a {
     text-decoration: none;
     color: inherit;
+}
+
+#footer-version {
+    color: #333333 !important;
+    text-align: right;
+    margin-left: auto;
+}
+
+.footer-rights {
+    text-align: left;
+    margin-right: auto;
 }
