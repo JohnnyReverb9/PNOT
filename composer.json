@@ -1,7 +1,10 @@
 {
   "autoload": {
     "psr-4": {
-
+      "db\\": "bin/db/"
     }
+  },
+  "require": {
+    "ext-mysqli": "*"
   }
 }
