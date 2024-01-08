@@ -131,6 +131,17 @@ body {
     color: inherit;
 }
 
+#info {
+    cursor: pointer;
+    color: whitesmoke;
+    margin-right: 5px;
+}
+
+#info a {
+    text-decoration: none;
+    color: inherit;
+}
+
 #footer-version {
     color: #333333 !important;
     text-align: right;
