@@ -149,6 +149,7 @@ body {
 }
 
 .footer-rights {
+    margin-left: 20px;
     text-align: left;
     margin-right: auto;
 }
@@ -173,4 +174,10 @@ body {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
+}
+
+.main-page-text {
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    margin: 60px;
 }
