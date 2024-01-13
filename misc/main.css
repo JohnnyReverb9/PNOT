@@ -291,3 +291,15 @@ body {
     font-size: 50px;
     font-family: "Lato", sans-serif;
 }
+
+#hidden-ref {
+    color: whitesmoke;
+}
+
+#hidden-ref:visited {
+    color: #7a1cd5;
+}
+
+#hidden-ref:hover {
+    color: #7a1cd5;
+}
