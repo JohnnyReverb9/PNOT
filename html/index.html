@@ -15,18 +15,43 @@
     <div class="menu-item" id="home">
         <a href="index.html">PNOT Ltd.</a>
     </div>
-    <div class="menu-item" id="services">
-        <span>Our services</span>
-        <div class="submenu">
-            <a href="../slotmachine/slot_v2.html">Casino</a>
-            <a href="../dice/dice.html">Dice</a>
+    <div class="btn-group menu-item" id="services">
+        <!--<div class="menu-item" id="services">
+            <span>Our services</span>
+            <div class="submenu">
+                <a href="../slotmachine/slot_v2.html">Casino</a>
+                <a href="../dice/dice.html">Dice</a>
+            </div>
+        </div>-->
+        <button type="button" class="menu-item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: black; color: whitesmoke; border: 0;">
+            Our services
+        </button>
+        <div class="dropdown-menu" style="box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2); position: absolute; background: #000000">
+            <a class="dropdown-item" href="../slotmachine/slot_v2.html" style="color: whitesmoke;">Casino</a>
+            <a class="dropdown-item" href="../dice/dice.html" style="color: whitesmoke; cursor:pointer;">Dice</a>
         </div>
     </div>
-    <div class="menu-item" id="contact">
+    <!--<div class="menu-item" id="contact">
         <span>Contact us</span>
         <div class="submenu">
             <a href="https://forms.yandex.ru/u/65945eec505690821f855328/" target="_blank">Feedback</a>
             <a href="https://t.me/pnotltd" target="_blank">Telegram</a>
+        </div>
+    </div>-->
+    <div class="btn-group menu-item" id="contact">
+        <!--<div class="menu-item" id="services">
+            <span>Our services</span>
+            <div class="submenu">
+                <a href="../slotmachine/slot_v2.html">Casino</a>
+                <a href="../dice/dice.html">Dice</a>
+            </div>
+        </div>-->
+        <button type="button" class="menu-item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: black; color: whitesmoke; border: 0;">
+            Our services
+        </button>
+        <div class="dropdown-menu" style="box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2); position: absolute; background: #000000">
+            <a class="dropdown-item" href="https://forms.yandex.ru/u/65945eec505690821f855328/" target="_blank" style="color: whitesmoke; cursor:pointer; text-decoration: none;">Feedback</a>
+            <a class="dropdown-item" href="https://t.me/pnotltd" target="_blank" style="color: whitesmoke; cursor:pointer; text-decoration: none;">Telegram</a>
         </div>
     </div>
     <div class="menu-item" id="info">
@@ -43,32 +68,32 @@
     </div>
 
     <div class="main-page-text">
-        <div>
-            <span id="main-page-title-text-block">В своей деятельности PNOT Ltd. всегда руководствуется принятыми ценностями, которые помогают достичь стратегических целей:</span>
+        <div id="main-page-title-text-block">
+            <span>В своей деятельности PNOT Ltd. всегда руководствуется принятыми ценностями, которые помогают достичь стратегических целей:</span>
         </div>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div id="carouselControl" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <span id="main-page-first-text-block">1.  Забота о партнёрах и уникальный user experience. Наша компания предоставляет услуги нового уровня качества, наш сервис ориентирован на удовлетворение каждой потребности пользователя. PNOT проводит регулярную оценку персонала и прислушивается к каждому желанию наших партнёров. PNOT Ltd. – бизнес на равных!</span>
+                <div class="carousel-item active" id="main-page-first-text-block">
+                    <span>Забота о партнёрах и уникальный user experience. Наша компания предоставляет услуги нового уровня качества, наш сервис ориентирован на удовлетворение каждой потребности пользователя. PNOT проводит регулярную оценку персонала и прислушивается к каждому желанию наших партнёров. <br><strong style="font-size: larger">PNOT Ltd. – бизнес на равных!</strong></span>
                 </div>
-                <div class="carousel-item">
-                    <span id="main-page-second-text-block">2.  Масштабирование и диверсификация деятельности. Уверенный рост компании связан, прежде всего, с долгосрочной стратегией и рациональной инвестиционной политикой. Наши менеджеры досконально анализируют рынки и находят новые «окна возможностей», позволяющие распространять качественные услуги PNOT для большего количество счастливых клиентов. PNOT Ltd. – новое слово в управлении!</span>
+                <div class="carousel-item" id="main-page-second-text-block">
+                    <span>Масштабирование и диверсификация деятельности. Уверенный рост компании связан, прежде всего, с долгосрочной стратегией и рациональной инвестиционной политикой. Наши менеджеры досконально анализируют рынки и находят новые «окна возможностей», позволяющие распространять качественные услуги PNOT для большего количество счастливых клиентов. <br><strong style="font-size: larger">PNOT Ltd. – новое слово в управлении!</strong></span>
                 </div>
-                <div class="carousel-item">
-                    <span id="main-page-third-text-block">3.  Риск-ориентированный подход. Во время трансформационных кризисов и эпохи турбулентности компания сохраняет высокое качество активов и внимательно следит за возможными сценариями развития. Долгосрочное прогнозирование и рациональный подход обеспечивают высокую устойчивость PNOT Ltd. как к внутренним, так и к внешним рискам. PNOT Ltd. – на шаг впереди!</span>
+                <div class="carousel-item" id="main-page-third-text-block">
+                    <span>Риск-ориентированный подход. Во время трансформационных кризисов и эпохи турбулентности компания сохраняет высокое качество активов и внимательно следит за возможными сценариями развития. Долгосрочное прогнозирование и рациональный подход обеспечивают высокую устойчивость PNOT Ltd. как к внутренним, так и к внешним рискам. <br><strong style="font-size: larger">PNOT Ltd. – на шаг впереди!</strong></span>
                 </div>
-                <div class="carousel-item">
-                    <span id="main-page-forth-text-block">4.  Технологии и инновации. В PNOT понимают важность передовых технологических решений. Компания активно применяет искусственный интеллект, виртуальную реальности, технологии облачного мессенджинга и финансового инжиниринга для формирования защищённой, быстрой и удобной инфраструктуры. Инновации и креативность – ключевые тренды операционного управления в компании. PNOT Ltd. – ваш проводник в будущее!</span>
+                <div class="carousel-item" id="main-page-forth-text-block">
+                    <span>Технологии и инновации. В PNOT понимают важность передовых технологических решений. Компания активно применяет искусственный интеллект, виртуальную реальности, технологии облачного мессенджинга и финансового инжиниринга для формирования защищённой, быстрой и удобной инфраструктуры. Инновации и креативность – ключевые тренды операционного управления в компании. <br><strong style="font-size: larger">PNOT Ltd. – ваш проводник в будущее!</strong></span>
                 </div>
-                <div class="carousel-item">
-                    <span id="main-page-fifth-text-block">5.  Устойчивое развитие и социальная ответственность. PNOT Ltd. Следует последним трендам в области принципов ESG и проводит ответственную корпоративную политику. Развитие компании сопряжено с инициативами в области экологии, благотворительности, социальных программ. PNOT уделяет особое внимание раскрытию потенциала каждого сотрудника и поддерживает высочайший уровень организации труда. PNOT Ltd. – с заботой о каждом!</span>
+                <div class="carousel-item" id="main-page-fifth-text-block">
+                    <span>Устойчивое развитие и социальная ответственность. PNOT Ltd. Следует последним трендам в области принципов ESG и проводит ответственную корпоративную политику. Развитие компании сопряжено с инициативами в области экологии, благотворительности, социальных программ. PNOT уделяет особое внимание раскрытию потенциала каждого сотрудника и поддерживает высочайший уровень организации труда. <br><strong style="font-size: larger">PNOT Ltd. – с заботой о каждом!</strong></span>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carouselControl" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carouselControl" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
@@ -77,6 +102,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 </main>
 
 <footer class="footer">
