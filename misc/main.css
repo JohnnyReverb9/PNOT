@@ -112,7 +112,7 @@ body {
 .footer {
     background-color: #000;
     color: whitesmoke;
-    padding: 10px;
+    padding: 0;
     margin-top: auto;
     position: fixed;
     bottom: 0;
