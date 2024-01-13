@@ -9,24 +9,50 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
   <link rel="icon" href="../misc/images/logo.jpg" type="image/x-icon">
   <link rel="shortcut icon" href="../misc/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body id="casino-body">
 <div class="menu">
   <div class="menu-item" id="home">
     <a href="../html/index.html">PNOT Ltd.</a>
   </div>
-  <div class="menu-item" id="services">
-    <span>Our services</span>
-    <div class="submenu">
-      <a href="../slotmachine/slot_v2.html">Casino</a>
-      <a href="#">Dice</a>
+  <div class="btn-group menu-item" id="services">
+    <!--<div class="menu-item" id="services">
+        <span>Our services</span>
+        <div class="submenu">
+            <a href="../slotmachine/slot_v2.html">Casino</a>
+            <a href="../dice/dice.html">Dice</a>
+        </div>
+    </div>-->
+    <button type="button" class="menu-item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: black; color: whitesmoke; border: 0;">
+      Our services
+    </button>
+    <div class="dropdown-menu" style="box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2); position: absolute; background: #000000; margin-top: 10px; margin-left: 32%; text-align: center; font-size: 22px; background: rgba(0, 0, 0, 0.2);">
+      <a class="dropdown-item" href="../slotmachine/slot_v2.html" style="color: whitesmoke; background-color: #000000;">Casino</a>
+      <a class="dropdown-item" href="../dice/dice.html" style="color: whitesmoke; background-color: #000000;">Dice</a>
     </div>
   </div>
-  <div class="menu-item" id="contact">
-    <span>Contact us</span>
-    <div class="submenu">
-      <a href="https://forms.yandex.ru/u/65945eec505690821f855328/" target="_blank">Feedback</a>
-      <a href="https://t.me/pnotltd" target="_blank">Telegram</a>
+  <!--<div class="menu-item" id="contact">
+      <span>Contact us</span>
+      <div class="submenu">
+          <a href="https://forms.yandex.ru/u/65945eec505690821f855328/" target="_blank">Feedback</a>
+          <a href="https://t.me/pnotltd" target="_blank">Telegram</a>
+      </div>
+  </div>-->
+  <div class="btn-group menu-item" id="contact">
+    <!--<div class="menu-item" id="services">
+        <span>Our services</span>
+        <div class="submenu">
+            <a href="../slotmachine/slot_v2.html">Casino</a>
+            <a href="../dice/dice.html">Dice</a>
+        </div>
+    </div>-->
+    <button type="button" class="menu-item" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: black; color: whitesmoke; border: 0;">
+      Our services
+    </button>
+    <div class="dropdown-menu" style="box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2); position: absolute; background: #000000; margin-top: 10px; margin-left: 32%; text-align: center; font-size: 22px; background: rgba(0, 0, 0, 0.2);">
+      <a class="dropdown-item" href="https://forms.yandex.ru/u/65945eec505690821f855328/" target="_blank" style="color: whitesmoke; text-decoration: none; background-color: #000000;">Feedback</a>
+      <a class="dropdown-item" href="https://t.me/pnotltd" target="_blank" style="color: whitesmoke; text-decoration: none; background-color: #000000;">Telegram</a>
     </div>
   </div>
   <div class="menu-item" id="info">
@@ -92,6 +118,9 @@
     </button>
   </div>
   <script src="index.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 <footer class="footer">
   <p class="footer-rights">&copy; <span id="current-year"></span> PNOT Ltd. All rights reserved. <span id="footer-version"></span></p>

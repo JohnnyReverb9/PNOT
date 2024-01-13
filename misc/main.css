@@ -27,12 +27,12 @@ body {
 
 .greetings {
     font-family: "Lato", sans-serif;
-    font-size: 34px;
+    font-size: 74px;
     color: whitesmoke;
 }
 
 #greetings-label {
-    font-size: 30px;
+    font-size: 60px;
     font-family: "Lato", sans-serif;
     color: whitesmoke;
 }
@@ -47,12 +47,12 @@ body {
 
 .menu {
     display: flex;
-    height: 60px;
+    height: 80px;
     background-color: black;
     padding: 0 20px;
     z-index: 2;
     border-bottom: 2px solid #333333;
-    font-size: 22px;
+    font-size: 28px;
 }
 
 .menu-casino {
@@ -192,14 +192,15 @@ body {
 
 #main-page-title-text-block {
     text-align: center;
-    font-size: 25px;
+    font-size: 32px;
+    width: 100%;
 }
 
 #carouselControl {
     margin: 30px;
-    padding: 40px 150px 0;
+    padding: 40px 160px 200px;
     text-align: center;
-    font-size: 23px;
+    font-size: 25px;
     width: 100%;
     height: 150px;
     position: relative;
@@ -214,6 +215,79 @@ body {
 }
 
 #main-page-first-text-block {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#main-page-second-text-block {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#main-page-third-text-block {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.additional-info {
+    color: whitesmoke;
+    font-family: "Lato", sans-serif;
+    margin: 60px;
+}
+
+.additional-info-main-text {
+    font-size: 60px;
+    text-align: left;
+    margin: 50px 100px 100px;
+}
+
+.additional-info-letters {
+    margin-left: 200px;
+    margin-bottom: 30px;
+    font-size: 120px;
+}
+
+.division {
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2), 0 -10px 10px rgba(0, 0, 0, 0.2);
+    height: 100px;
+    width: 100%;
+    padding: 50px;
+}
+
+.string {
+    height: 90px;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2), 0 -10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.string p {
+    font-family: "Lato", sans-serif;
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    text-transform: uppercase;
+    animation: text 10s infinite linear;
+    white-space: nowrap;
+}
+
+@keyframes text {
+    0% {
+        transform: translate(100%, 0);
+    }
+
+    0% {
+        transform: translate(-100%, 0);
+    }
+}
+
+.final-label {
+    margin-top: 30px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Lato", sans-serif;
 }
